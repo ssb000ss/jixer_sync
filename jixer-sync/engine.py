@@ -3,7 +3,7 @@ import math
 from urllib.parse import urljoin
 
 from typing import List, Tuple, Any
-from jixer_sync.base import BaseEngine
+from .base import BaseEngine
 
 
 class ShodanEngine(BaseEngine):
