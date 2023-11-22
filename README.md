@@ -7,13 +7,13 @@ A Python library for seamless querying of Shodan, Netlas, Zoomeye, and Fofa IP s
 Install the IP Search Engine library using `pip`:
 
 ```bash
-pip install jixer-sync
+pip install jixer_sync
 ```
 
 ## Usage
 
 ```python
-from jixer-sync import BaseEngine, ShodanEngine, NetlasEngine
+from jixer_sync import BaseEngine, ShodanEngine, NetlasEngine
 
 # Example usage of BaseEngine
 with BaseEngine(api_key='your_api_key') as engine:
@@ -54,7 +54,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Issues
 
-Report issues or suggestions on the [GitHub repository](https://github.com/ssb000ss/jixer-sync).
+Report issues or suggestions on the [GitHub repository](https://github.com/ssb000ss/jixer_sync).
 
 ## Changelog
 
